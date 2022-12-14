@@ -32,11 +32,11 @@
         var scale = Math.min(winW / initialDimensions.width, winH / initialDimensions.height);
         gCanvasElement.style.display = '';
 
-        var fitW = Math.round(initialDimensions.width * scale * 100) / 100;
-        var fitH = Math.round(initialDimensions.height * scale * 100) / 100;
+       <!-- var fitW = Math.round(initialDimensions.width * scale * 100) / 100;-->
+       <!-- var fitH = Math.round(initialDimensions.height * scale * 100) / 100;-->
 
-        gCanvasElement.style.width = winW + "px";
-        gCanvasElement.style.height = winH + "px";
+        <!--gCanvasElement.style.width = winW + "px";-->
+        <!--gCanvasElement.style.height = winH + "px";-->
         
     }
 
