@@ -38,6 +38,9 @@
         <!--gCanvasElement.style.width = winW + "px";-->
         <!--gCanvasElement.style.height = winH + "px";-->
         
+        gCanvasElement.style.width = 1080 + "px";
+        gCanvasElement.style.height = 1920 + "px";
+        
     }
 
     window.setDimensions = setDimensions;
