@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Interactive Yearender Game</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.javascript"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>UnityLoader.compatibilityCheck = function (e, t, r) { t(); };
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/YearEndGame.json", { onProgress: UnityProgress });</script>
+
+    <style>
+        #gameContainer canvas {
+            width: 480px !important;
+            height: 100vh;
+        }
+
+
+
+        @media only screen and (max-width:767px) {
+
+
+            #gameContainer canvas {
+                width: 100% !important;
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="custom-logo"></div>
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 600px; height: 960px"></div>
+</div>
+
+<script src="TemplateData/responsive.javascript"></script>
+</body>
+</html>
